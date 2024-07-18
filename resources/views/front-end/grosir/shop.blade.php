@@ -82,7 +82,7 @@
 						<div class="product-image">
 							<a href="single-product.html"><img src="{{ asset('fruit/assets/img/meja.jpeg') }}" alt=""></a>
 						</div>
-						<h3>Mejas Minimalis</h3>
+						<h3>Meja Minimalis</h3>
 						<p class="product-price"><span></span> Rp 150.000 </p>
 						<a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukan Ke Keranjang</a>
 					</div>

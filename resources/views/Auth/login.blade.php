@@ -1,7 +1,7 @@
 @extends('Auth.layout.main')
 @section('container')
 
-    <body class="bg-gradient-primary">
+    <body style="background-color: #051922">
         <div class="container">
             <!-- Outer Row -->
             <div class="row justify-content-center">
@@ -42,7 +42,7 @@
                                                     class="form-control form-control-user @error('password') is-invalid @enderror"
                                                     placeholder="Password" required>
                                             </div>
-                                            <button type='submit' class="btn btn-primary btn-user btn-block">
+                                            <button type='submit' class="btn user btn-block" style="background-color:#0d2835fe ; color:white;">
                                                 Login
                                             </button>
                                             <hr>
