@@ -12,6 +12,7 @@ use App\Models\Category;
 
 
 
+
 class Landingpages extends Controller
 {
     public function index(){
