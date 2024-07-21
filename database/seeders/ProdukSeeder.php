@@ -16,7 +16,7 @@ class ProdukSeeder extends Seeder
     public function run()
     {
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/kaos.jpg',
             'nama_barang' => 'Kaos Polos Lokal Premium',
             'deskripsi' => NULL,
             'price' => 30000,
@@ -27,7 +27,7 @@ class ProdukSeeder extends Seeder
         ]);
 
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/charger.jpg',
             'nama_barang' => 'INIU Portable Charger, 20W PD3_0 QC4 0 Fast Charging',
             'deskripsi' => NULL,
             'price' => 100000,
@@ -38,7 +38,7 @@ class ProdukSeeder extends Seeder
         ]);
 
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/kursi.jpg',
             'nama_barang' => 'Kursi Makan Restoran Jok Minimalis - Sarana Mulya ®',
             'deskripsi' => NULL,
             'price' => 60000,
@@ -49,7 +49,7 @@ class ProdukSeeder extends Seeder
         ]);
 
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/meja.jpg',
             'nama_barang' => 'Mejas Minimalis',
             'deskripsi' => '',
             'price' => 150000,
@@ -60,7 +60,7 @@ class ProdukSeeder extends Seeder
         ]);
 
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/sepatu.jpg',
             'nama_barang' => 'Panda Nike Dunks',
             'deskripsi' => NULL,
             'price' => 1500000,
@@ -71,7 +71,7 @@ class ProdukSeeder extends Seeder
         ]);
 
         Produk::create([
-            'image' => NULL,
+            'image' => 'product/lemari.jpg',
             'nama_barang' => 'Lemari Minimalis',
             'deskripsi' => NULL,
             'price' => 300000,

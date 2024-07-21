@@ -24,12 +24,12 @@ class Produk extends Model
     }
 
     public function GetProduk(){
-        return Produk::all();
+        return Produk::with('category')->get();
     }
 
-    public function category(): BelongsTo
+    public function category()
     {
-        return $this->belongsTo(Category::class);
+        return $this->belongsto(Category::class);
     }
 
 }

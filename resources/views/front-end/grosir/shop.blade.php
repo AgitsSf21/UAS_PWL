@@ -23,35 +23,39 @@
 	<div class="product-section mt-150 mb-150">
 		<div class="container">
 
-			<div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <div class="product-filters">
                         <ul>
+                            <li class="active" data-filter="*">All</li>
                             @foreach ($category as $item)
-                            <li class="active" data-filter="*">{{ $item }}</li>
+                                @if (strtolower($item->category) != 'all')
+                                    <li data-filter=".{{ $item->category }}">{{ $item->category }}</li>
+                                @endif
                             @endforeach
-                            {{-- <li data-filter=".strawberry">Fashion</li>
-                            <li data-filter=".berry">Elektronik</li>
-                            <li data-filter=".lemon">Furniture</li> --}}
                         </ul>
                     </div>
                 </div>
             </div>
 
-			<div class="row product-lists">
+            <div class="row product-lists">
                 @foreach ($products as $item)
-                    <div class="col-lg-4 col-md-6 text-center {{ $category->category }}">
+                    <div class="col-lg-4 col-md-6 text-center {{ $item->category->category }}">
                         <div class="single-product-item">
                             <div class="product-image">
-                                <a href="single-product.html"><img src="{{ asset('Storage/' . $item->image ) }}" alt=""></a>
+                                <a href="single-product.html"><img src="{{ asset('Storage/' . $item->image) }}"
+                                        alt=""></a>
                             </div>
                             <h3>{{ $item->nama_barang }}</h3>
                             <p class="product-price"><span></span> Rp {{ $item->price }} </p>
-                            <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukan Ke Keranjang</a>
+                            <a href="cart.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Masukan Ke
+                                Keranjang</a>
                         </div>
                     </div>
                 @endforeach
             </div>
+
+
 		</div>
 	</div>
 	<!-- end products -->
