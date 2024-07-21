@@ -21,9 +21,11 @@ class DatabaseSeeder extends Seeder
             TestimoniSeeder::class,
             DiscountSeeder::class,
             InformasiPerusahaanSeeder::class,
-            ProdukSeeder::class,
             RoleSeeder::class,
-            NewsSeeder::class
+            NewsSeeder::class,
+            CategorySeeder::class,
+            ProdukSeeder::class,
+
         ]);
 
 

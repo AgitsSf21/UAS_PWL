@@ -4,6 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasOne;
+use App\models\Category;
+
 
 class Produk extends Model
 {
@@ -22,6 +25,11 @@ class Produk extends Model
 
     public function GetProduk(){
         return Produk::all();
+    }
+
+    public function category(): BelongsTo
+    {
+        return $this->belongsTo(Category::class);
     }
 
 }

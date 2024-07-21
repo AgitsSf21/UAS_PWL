@@ -43,13 +43,44 @@
     </li>
 
     <hr class="sidebar-divider">
-    <div class="sidebar-heading">
+    {{-- <div class="sidebar-heading">
         Setting
-    </div>
+    </div> --}}
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Orders</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>kelompok</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Message</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Testimoni</span>
+        </a>
+    </li>
     <li class="nav-item">
         <a class="nav-link" href="/">
             <i class="fas fa-fw fa-chart-area"></i>
             <span>Kunjungi Velaris</span>
+        </a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link" href="/">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Setting</span>
         </a>
     </li>
 

@@ -47,5 +47,28 @@
         }
     </style>
 
+@if (Route::is('news'))
+    <style>
+        .news-bg-1 {
+            background-image: url({{ asset('Storage/' . $news[0]->image) }});
+        }
+        .news-bg-2 {
+            background-image: url({{ asset('Storage/' . $news[1]->image) }});
+        }
+        .news-bg-3 {
+            background-image: url({{ asset('Storage/' . $news[2]->image) }});
+        }
+        .news-bg-4 {
+            background-image: url({{ asset('Storage/' . $news[3]->image) }});
+        }
+        .news-bg-5 {
+            background-image: url({{ asset('Storage/' . $news[4]->image) }});
+        }
+        .news-bg-6 {
+            background-image: url({{ asset('Storage/' . $news[5]->image) }});
+        }
+    </style>
+@endif
+
 </head>
 <body>

@@ -12,9 +12,9 @@
                 <div class="footer-box get-in-touch">
                     <h2 class="widget-title">Get in Touch</h2>
                     <ul>
-                        <li>Jln. industri, blok 27 </li>
-                        <li>agitssyuhada07@astukancana.ac.id</li>
-                        <li>+62 855 5969 6310</li>
+                        <li>{{ $info->alamat }}</li>
+                        <li><a href="mailto:{{ $info->email }}">{{ $info->email }}</a></li>
+                        <li><a href="tel:+{{ $info->phone_number }}">{{ $info->phone_number }}</a></li>
                     </ul>
                 </div>
             </div>

@@ -19,7 +19,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'Kaos Polos Lokal Premium',
             'deskripsi' => NULL,
-            'price' => 30000
+            'price' => 30000,
+            'category_id' => 2,
 
 
 
@@ -29,7 +30,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'INIU Portable Charger, 20W PD3_0 QC4 0 Fast Charging',
             'deskripsi' => NULL,
-            'price' => 100000
+            'price' => 100000,
+            'category_id' => 3,
 
 
 
@@ -39,7 +41,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'Kursi Makan Restoran Jok Minimalis - Sarana Mulya ®',
             'deskripsi' => NULL,
-            'price' => 60000
+            'price' => 60000,
+            'category_id' => 4,
 
 
 
@@ -49,7 +52,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'Mejas Minimalis',
             'deskripsi' => '',
-            'price' => 150000
+            'price' => 150000,
+            'category_id' => 4,
 
 
 
@@ -59,7 +63,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'Panda Nike Dunks',
             'deskripsi' => NULL,
-            'price' => 1500000
+            'price' => 1500000,
+            'category_id' => 2,
 
 
 
@@ -69,7 +74,8 @@ class ProdukSeeder extends Seeder
             'image' => NULL,
             'nama_barang' => 'Lemari Minimalis',
             'deskripsi' => NULL,
-            'price' => 300000
+            'price' => 300000,
+            'category_id' => 4,
 
 
 

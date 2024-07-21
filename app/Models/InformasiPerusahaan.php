@@ -14,4 +14,8 @@ class InformasiPerusahaan extends Model
         'phone_number',
         'email'
     ];
+
+    public function getInformasiPerusahaan(){
+        return InformasiPerusahaan::first();
+    }
 }
